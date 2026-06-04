@@ -202,7 +202,7 @@
       "imageURL": "https://raw.githubusercontent.com/k45sle/NUVIO_BADGES/refs/heads/main/resources/TRUEHDn.png",
       "isEnabled": true,
       "name": "TrueHD",
-      "pattern": "(?i)(?:\\btrue[ ._-]?hd\\b|^(?=.*\\batmos\\b)(?=.*\\bremux\\b)(?!.*\\b(?:true[ ._-]?hd|ddp|dd\\+|e-?ac3|eac3)\\b).+$)",
+      "pattern": "(?i)\\btrue[ ._-]?hd\\b",
       "tagColor": "#00000000",
       "tagStyle": "bordered",
       "textColor": "#0e0e0e",
@@ -215,12 +215,12 @@
       "imageURL": "https://raw.githubusercontent.com/k45sle/NUVIO_BADGES/refs/heads/main/resources/ATMOSn.png",
       "isEnabled": true,
       "name": "Atmos",
-      "pattern": "(?i)^(?!.*\\btrue[ _\\.\\-]?hd\\b).*\\batmos\\b.*$",
+      "pattern": "(?i)\\batmos\\b",
       "tagColor": "#00000000",
       "tagStyle": "bordered",
       "textColor": "#0e0e0e",
       "type": "filter"
-    },
+    }
     {
       "borderColor": "#00000000",
       "groupId": "ga",
