@@ -115,7 +115,8 @@
       "tagColor": "#00000000",
       "tagStyle": "bordered",
       "textColor": "#0e0e0e",
-      "type": "filter"
+      "type": "filter",
+      "_logic": "HIGHEST_PRIORITY_VISUAL | suppresses HDR10/HDR10+/HDR when matched"
     },
     {
       "borderColor": "#00000000",
@@ -128,7 +129,8 @@
       "tagColor": "#00000000",
       "tagStyle": "bordered",
       "textColor": "#0e0e0e",
-      "type": "filter"
+      "type": "filter",
+      "_logic": "ONLY IF DV NOT PRESENT | overrides HDR10"
     },
     {
       "borderColor": "#07e88a",
@@ -141,7 +143,8 @@
       "tagColor": "#00000000",
       "tagStyle": "bordered",
       "textColor": "#FFFFFF",
-      "type": "filter"
+      "type": "filter",
+      "_logic": "ONLY IF DV and HDR10+ NOT PRESENT"
     },
     {
       "borderColor": "#07e88a",
@@ -154,7 +157,8 @@
       "tagColor": "#00000000",
       "tagStyle": "bordered",
       "textColor": "#FFFFFF",
-      "type": "filter"
+      "type": "filter",
+      "_logic": "FALLBACK HDR ONLY (very rare modern use)"
     },
     {
       "borderColor": "#FF6B6B",
@@ -167,7 +171,8 @@
       "tagColor": "#00000000",
       "tagStyle": "bordered",
       "textColor": "#FFFFFF",
-      "type": "filter"
+      "type": "filter",
+      "_logic": "INDEPENDENT (never suppressed by HDR/DV)"
     },
     {
       "borderColor": "#FF6B6B",
@@ -180,7 +185,8 @@
       "tagColor": "#00000000",
       "tagStyle": "bordered",
       "textColor": "#FFBE01",
-      "type": "filter"
+      "type": "filter",
+      "_logic": "INDEPENDENT (not tied to HDR logic)"
     },
     {
       "borderColor": "#FF6B6B",
@@ -193,7 +199,8 @@
       "tagColor": "#00000000",
       "tagStyle": "bordered",
       "textColor": "#FFBE01",
-      "type": "filter"
+      "type": "filter",
+      "_logic": "ONLY IF NO HDR OR DV DETECTED (fallback state, not primary match)"
     },
     {
       "borderColor": "#00000000",
