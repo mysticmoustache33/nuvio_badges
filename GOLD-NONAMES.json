@@ -42,7 +42,7 @@
     {
       "borderColor": "#FF6B6B",
       "groupId": "gq",
-      "id": "q-w",
+      "id": "q-wr",
       "imageURL": "https://raw.githubusercontent.com/ngreyx1/badges/refs/heads/main/images-white/mono-webrip.png",
       "isEnabled": true,
       "name": "WebRip",
@@ -385,32 +385,6 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF6B6B",
-      "groupId": "gl",
-      "id": "l-en",
-      "imageURL": "",
-      "isEnabled": true,
-      "name": "🇬🇧 ENG",
-      "pattern": "(?i)english|\\beng\\b",
-      "tagColor": "#1A1A1A",
-      "tagStyle": "filled and bordered",
-      "textColor": "#A0A0A0",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FF6B6B",
-      "groupId": "gl",
-      "id": "l-mu",
-      "imageURL": "",
-      "isEnabled": true,
-      "name": "🌐 MULTI",
-      "pattern": "(?i)\\bmulti\\b|\\bdual[\\s._-]?audio\\b|\\bmulti[\\s._-]?audio\\b",
-      "tagColor": "#1A1A1A",
-      "tagStyle": "filled and bordered",
-      "textColor": "#A0A0A0",
-      "type": "filter"
-    },
-    {
       "borderColor": "#FFFFFFFF",
       "groupId": "gs",
       "id": "s-nflx",
@@ -576,13 +550,6 @@
       "id": "gc",
       "isExpanded": true,
       "name": "Channels"
-    },
-    {
-      "borderColor": "#00000000",
-      "color": "#4ECDC4",
-      "id": "gl",
-      "isExpanded": true,
-      "name": "Language"
     },
     {
       "borderColor": "#FF858283",
