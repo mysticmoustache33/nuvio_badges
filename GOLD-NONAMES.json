@@ -125,7 +125,7 @@
       "imageURL": "https://raw.githubusercontent.com/k45sle/NUVIO_BADGES/refs/heads/main/resources/HDR10Pn.png",
       "isEnabled": true,
       "name": "HDR10+",
-      "pattern": "(?i)^(?=.*\\bhdr10\\b)(?!.*hdr[\\s._-]?10[\\s._-]?(?:\\+|plus|p)\\b)(?!.*(?:dv|dovi|dolby[\\s._-]?vision))",
+      "pattern": "(?i)^(?=.*\\bhdr10\\b)(?!.*\\bhdr10(?:\\+|[\\s._-]?plus)\\b)(?!.*(?:dv|dovi|dolby[\\s._-]?vision))",
       "tagColor": "#00000000",
       "tagStyle": "bordered",
       "textColor": "#0e0e0e",
