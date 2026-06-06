@@ -447,7 +447,7 @@
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/regex%20tags/DDPLUS.png",
       "isEnabled": true,
       "name": "DOLBY DIGITAL +",
-      "pattern": "(?i)(?=.*(?:\\bddp\\b|\\bdd\\+\\b|\\be-?ac3\\b|\\beac3\\b))(?!.*\\btrue[ ._-]?hd\\b)",
+      "pattern": "(?i).*(?:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3).*",
       "tagColor": "#FFFFFF",
       "tagStyle": "filled",
       "textColor": "#0e0e0e",
