@@ -215,7 +215,7 @@
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/regex%20tags/DDPLUS.png",
       "isEnabled": true,
       "name": "DD+",
-      "pattern": "(?i)^(?!.*\\b(?:true[\\s._-]?hd|atmos)\\b).*(?:(?:\\bdd\\+\\b|\\bddp\\b|\\be-?ac3\\b|\\beac3\\b))",
+      "pattern": "(?i)^(?!.*\\b(?:true[\\s._-]?hd|atmos)\\b).*(?:\\bdd\\+|\\bddp\\b|\\be-?ac3\\b|\\beac3\\b)",
       "tagColor": "#FFFFFF",
       "tagStyle": "filled",
       "textColor": "#0e0e0e",
