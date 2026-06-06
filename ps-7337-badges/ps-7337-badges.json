@@ -8,9 +8,9 @@
       "isEnabled": true,
       "name": "Remux",
       "pattern": "(?i)\\bremux\\b",
-      "tagColor": "#E600E932",
+      "tagColor": "#00E932",
       "tagStyle": "filled",
-      "textColor": "#27C04F",
+      "textColor": "#000000",
       "type": "filter"
     },
     {
@@ -21,7 +21,7 @@
       "isEnabled": true,
       "name": "BluRay",
       "pattern": "(?i)^(?=.*(?:bluray|blu-ray))(?!.*remux)",
-      "tagColor": "#E600E932",
+      "tagColor": "#00E932",
       "tagStyle": "filled",
       "textColor": "#27C04F",
       "type": "filter"
@@ -34,7 +34,7 @@
       "isEnabled": true,
       "name": "WebDL",
       "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
-      "tagColor": "#E600E932",
+      "tagColor": "#00E932",
       "tagStyle": "filled",
       "textColor": "#27C04F",
       "type": "filter"
@@ -47,7 +47,7 @@
       "isEnabled": true,
       "name": "WebRip",
       "pattern": "(?i)\\bweb[-_. ]?rip\\b",
-      "tagColor": "#E600E932",
+      "tagColor": "#00E932",
       "tagStyle": "filled",
       "textColor": "#27C04F",
       "type": "filter"
@@ -60,7 +60,7 @@
       "isEnabled": true,
       "name": "SeaDex",
       "pattern": "(?i)\\b(?:seadex|best[\\s._-]?release|alt[\\s._-]?(?:best[\\s._-]?)?release)\\b|ᴀʟᴛ ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ ʀᴇʟᴇᴀsᴇ",
-      "tagColor": "#E600E932",
+      "tagColor": "#00E932",
       "tagStyle": "filled",
       "textColor": "#27C04F",
       "type": "filter"
@@ -510,14 +510,14 @@
   ],
   "groups": [
     {
-      "borderColor": "#FF00FF37",
+      "borderColor": "#27C04F",
       "color": "#27C04F",
       "id": "gq",
       "isExpanded": true,
       "name": "Quality"
     },
     {
-      "borderColor": "#FF858283",
+      "borderColor": "#FF8582",
       "color": "#FFBE01",
       "id": "gr",
       "isExpanded": true,
