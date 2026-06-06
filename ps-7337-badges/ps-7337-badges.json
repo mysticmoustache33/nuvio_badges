@@ -150,7 +150,7 @@
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/regex%20tags/HDR.png",
       "isEnabled": true,
       "name": "HDR",
-      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision|hdr[\\s._-]?10(?:[\\s._-]?(?:\\+|plus|p))?)\\b).*(?=.*\\bhdr\\b)",
+      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision|hdr[\\s._-]?10(?:[\\s._-]?(?:\\+|plus|p))?)\\b)(?=.*(?:^|[\\s._\\-])hdr(?:[\\s._\\-]|$))",
       "tagColor": "#FFBE01",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
